@@ -1,6 +1,11 @@
+from typing import Dict, List
+
+
 class Package:
     @staticmethod
-    def get_packages():
+    def get_packages() -> List[Dict[str, int]]:
+        """Simulo la llamada a la DB"""
+
         return [
             {
                 "id": 1,
