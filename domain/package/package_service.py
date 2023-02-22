@@ -1,7 +1,7 @@
 from functools import reduce
 from typing import List, Optional
 
-from domain.package.dataclasses import PackageVolume
+from domain.package.dtos import PackageVolume
 from domain.package.entities import PackageEntity
 from domain.package.repository import PackageRepository
 

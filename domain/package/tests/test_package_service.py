@@ -1,6 +1,6 @@
 from unittest.mock import Mock
 
-from domain.package.dataclasses import PackageVolume
+from domain.package.dtos import PackageVolume
 from domain.package.entities import PackageEntity
 from domain.package.package_service import PackageService
 from domain.package.repository import PackageRepository

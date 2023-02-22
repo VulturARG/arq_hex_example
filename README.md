@@ -25,11 +25,13 @@ El objetivo de usar una arquitectura limpia es tener sistemas:
 
 ```
 app
-├───adapter
+├───adapter (Infrastructure)
+│   ├───logic (Use Cases)
+│   │   └───package
 │   └───repositories
 │       └───package
 ├───domain
 │   └───package
 │       └───tests
-└───seudo_django
+└───seudo_django (Framework)
 ```

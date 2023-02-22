@@ -2,7 +2,7 @@ from typing import List
 
 from domain.package.entities import PackageEntity
 from domain.package.repository import PackageRepository
-from seudo_django.package_model import Package
+from seudo_django.models import Package
 
 
 class DjangoPackageRepository(PackageRepository):

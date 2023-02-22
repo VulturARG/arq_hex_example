@@ -1,14 +1,12 @@
-from adapter.repositories.package.django_package_repository import DjangoPackageRepository
-from domain.package.package_service import PackageService
+from seudo_django.views import PackageViewSet
 
 
-def main():
-    repository = DjangoPackageRepository()
-    package_service = PackageService(repository)
-    packages_volume = package_service.get_volumes()
+def some_endpoint():
+    endpoint = PackageViewSet()
+    packages_volume = endpoint.some_action()
     for volume in packages_volume:
         print(f"Volumen paquete #{volume.id}: {volume.volume}")
 
 
 if __name__ == '__main__':
-    main()
+    some_endpoint()
