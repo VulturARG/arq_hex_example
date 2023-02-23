@@ -19,7 +19,8 @@ def test_parameter_is_none():
     expected = [
         PackageVolume(
             id=1,
-            volume=None
+            volume=None,
+            error="Error in dimensión parameter"
         )
     ]
 
@@ -41,7 +42,8 @@ def test_parameter_is_zero():
     expected = [
         PackageVolume(
             id=1,
-            volume=None
+            volume=None,
+            error="Error in dimensión parameter"
         )
     ]
 
@@ -63,7 +65,8 @@ def test_parameter_are_good():
     expected = [
         PackageVolume(
             id=1,
-            volume=24
+            volume=24,
+            error=None
         )
     ]
 

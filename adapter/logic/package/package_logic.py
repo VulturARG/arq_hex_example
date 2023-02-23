@@ -5,7 +5,7 @@ from domain.package.package_service import PackageService
 class PackageLogic:
     """Have all use cases from package"""
     @staticmethod
-    def get_volume():
+    def get_volumes():
         repository = DjangoPackageRepository()
         package_service = PackageService(repository)
         return package_service.get_volumes()

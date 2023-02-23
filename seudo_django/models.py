@@ -18,5 +18,17 @@ class Package:
                 "width": 20,
                 "high": 20,
                 "length": 20
+            },
+            {
+                "id": 3,
+                "width": 0,
+                "high": 20,
+                "length": 20
+            },
+            {
+                "id": 4,
+                "width": 20,
+                "high": None,
+                "length": 20
             }
         ]

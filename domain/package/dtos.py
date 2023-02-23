@@ -6,3 +6,4 @@ from typing import Optional
 class PackageVolume:
     id: int
     volume: Optional[int]
+    error: Optional[str]

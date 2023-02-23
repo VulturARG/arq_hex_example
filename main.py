@@ -5,7 +5,7 @@ def some_endpoint():
     endpoint = PackageViewSet()
     packages_volume = endpoint.some_action()
     for volume in packages_volume:
-        print(f"Volumen paquete #{volume.id}: {volume.volume}")
+        print(f"Paquete id: {volume.id}, Volumen: {volume.volume}, Error: {volume.error}")
 
 
 if __name__ == '__main__':

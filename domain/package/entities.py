@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import Optional
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, eq=True)
 class PackageEntity:
     id: int
     width: Optional[int]
