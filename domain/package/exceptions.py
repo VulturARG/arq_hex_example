@@ -10,6 +10,7 @@ class PackageException(Exception):
         pass
 
 
+
 class DimensionError(PackageException):
     MESSAGE = "Error in dimensión parameter"
 

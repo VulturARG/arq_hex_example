@@ -1,4 +1,4 @@
-from adapter.logic.package.package_logic import PackageLogic
+from infrastructure.django_logic.package.package_logic import PackageLogic
 
 
 class PackageViewSet:
